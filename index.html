@@ -5,28 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вэб-студия</title>
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
+    <!--Шапка сайта-->
+    <header class="page-header">
         <nav>
-            <a href="">
+            <a href="" class="logo">
                 <img src="./images/web_studio.jpg" alt="логотип" width="146" height="32"/>
             </a>
-        <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+        <ul class="site-nav">
+            <li><a href="./index.html" class="link-studia">Студия</a></li>
+            <li><a href="./portfolio.html" class="link-portfolio">Портфолио</a></li>
+            <li><a href="" class="link-contact">Контакты</a></li>
         </ul>
     </nav>
     <ul>
-        <li><a href="mailto">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a href="mailto" class="mail">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="link-header-tel">+38 096 111 11 11</a></li>
     </ul>
 </header>
     <main>
-        <section>
-            <h1>Эффективные решения вашего бизнеса</h1>
-        <button type="button">заказать услугу</button>
+        <section class="hero">
+            <!--главный заголовок + кнопка-->
+            <h1 class="caption">Эффективные решения вашего бизнеса</h1>
+        <button type="button" class="modal-studio">заказать услугу</button>
         </section>
         <section>
             <ul>
@@ -54,7 +57,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="team-masters">
             <!--Masters-->
             <h2>Наша команда</h2>
             <ul>
@@ -80,22 +83,23 @@
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer-studio">
         <!--Contact information-->
         <a href="">
             <img src="./images/web_studio.jpg" alt="логотип" width="146" height="32" />
         </a>
         <ul>
             <li>
-                <a href="https://goo.gl/maps/bgJPSbdSrHESArMN8">г. Киев, пр-т Леси Украинки, 26</a>
+                <a href="https://goo.gl/maps/bgJPSbdSrHESArMN8" class="link-adress">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
             <li>
-                <a href="mailto:">info@example.com</a>
+                <a href="mailto:" class="footer-link-mail">info@example.com</a>
             </li>
             <li>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
+                <a href="tel:+380991111111" class="footer-link-tel">+38 099 111 11 11</a>
             </li>
         </ul>
     </footer>
 </body>
 </html>
+           

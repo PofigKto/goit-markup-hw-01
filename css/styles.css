@@ -1,0 +1,97 @@
+/*фоновые цвета в секциях плюс переменные*/
+.team-masters {
+    background-color: #F5F4FA;
+}
+.hero {
+    background-color: #2F303A;
+}
+.modal {
+    background-color: #2196F3;
+}
+.footer-studio {
+    background-color: #2F303A;
+}
+.footer-portfolio {
+    background-color: #2F303A;
+}
+:root {
+    --background-color: #F5F4FA;
+}
+/*цвета ссылок/кнопок при наведении, при фокусе*/
+.link-studia:hover,
+.link-studia:focus {
+    color: #2196F3;
+}
+.link-portfolio:hover,
+.link-portfolio:focus {
+    color: #2196F3;
+}
+.link-contact:hover,
+.link-contact:focus {
+color: #2196F3;
+}
+.mail:hover,
+.mail:focus {
+    color: #2196F3;
+}
+.link-header-tel:hover,
+.link-header-tel:focus {
+    color: #2196F3;
+}
+.footer-link-mail:hover,
+.footer-link-mail:focus {
+    color: #2196F3;
+}
+.footer-link-tel:hover,
+.footer-link-tel:focus {
+    color: #2196F3;
+}
+.link-adress:hover,
+.link-adress:focus {
+    color: #2196F3;
+}
+.modal:hover,
+.modal:focus{
+    background-color: #2196F3;
+}
+.modal {
+    background-color: #F5F4FA;
+}
+:root {
+    --color: #2196F3;
+}
+.modal-studio {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+/* цвета текстов*/
+.caption {
+    color: #FFFFFF;
+}
+.link-adress {
+    color: #FFFFFF;
+}
+.footer-link-mail {
+    color: #757575;
+}
+.footer-link-tel {
+    color: #757575;
+}
+.link-studia {
+    color: #212121;
+}
+.link-portfolio {
+    color: #212121;
+}
+.link-contact {
+    color: #212121;
+}
+.mail {
+    color: #757575;
+}
+.link-header-tel {
+    color: #757575;
+}
+p {
+    color: #757575;
+}
